@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jyacademy/static/css/main.73048f41.css",
-    "main.js": "/jyacademy/static/js/main.cd9be65f.js",
+    "main.js": "/jyacademy/static/js/main.a329a6e9.js",
     "static/media/software.jpg": "/jyacademy/static/media/software.e7161e89a139881265e8.jpg",
     "static/media/home-calculator.jpg": "/jyacademy/static/media/home-calculator.5b5fe00f81a82970304a.jpg",
     "static/media/services-audit-assurances.jpg": "/jyacademy/static/media/services-audit-assurances.07263d3f73f207cd2797.jpg",
@@ -39,10 +39,10 @@
     "static/media/who-we-serve 1.png": "/jyacademy/static/media/who-we-serve 1.ff7784f8106ad4741fe0.png",
     "index.html": "/jyacademy/index.html",
     "main.73048f41.css.map": "/jyacademy/static/css/main.73048f41.css.map",
-    "main.cd9be65f.js.map": "/jyacademy/static/js/main.cd9be65f.js.map"
+    "main.a329a6e9.js.map": "/jyacademy/static/js/main.a329a6e9.js.map"
   },
   "entrypoints": [
     "static/css/main.73048f41.css",
-    "static/js/main.cd9be65f.js"
+    "static/js/main.a329a6e9.js"
   ]
 }
