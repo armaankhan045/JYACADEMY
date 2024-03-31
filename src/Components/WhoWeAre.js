@@ -85,7 +85,7 @@ const WhoWeAre = () => {
               <li className="nav-item">
                 <a
                   class="nav-link "
-                  href="/"
+                  href="/jyacademy"
                   style={{ fontWeight: "" }}
                 >
                   Home
@@ -123,7 +123,7 @@ const WhoWeAre = () => {
                       <a
                         class="m-0 dropdown-item"
                         type="button"
-                        href="Taxation"
+                        href="/Taxation"
                       >
                         Taxation
                       </a>

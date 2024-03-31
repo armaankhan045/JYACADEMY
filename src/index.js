@@ -32,8 +32,8 @@ const root = createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
    
-      <Routes>
-        <Route path="/" element={<NavBar />} />
+      <Routes basename="/jyacademy">
+        <Route exact path="/jyacademy" element={<NavBar />} />
         <Route path="/OncampusProgram" element={<OncampusProgram />} />
         <Route path="/CrashCourse" element={<CrashCourse />} />
         <Route path="/Contact" element={<Contact />} />

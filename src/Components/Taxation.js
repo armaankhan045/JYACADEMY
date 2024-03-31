@@ -56,11 +56,11 @@ const Taxation = () => {
             className="w-100 collapse navbar-collapse mx-auto "
             id="navbarNav"
           >
-            <ul className="navbar-nav active mx-1 mx-auto">
+           <ul className="navbar-nav active mx-1 mx-auto">
               <li className="nav-item">
                 <a
                   class="nav-link "
-                  href="/"
+                  href="/jyacademy"
                   style={{ fontWeight: "" }}
                 >
                   Home
@@ -98,7 +98,7 @@ const Taxation = () => {
                       <a
                         class="m-0 dropdown-item"
                         type="button"
-                        href="Taxation"
+                        href="/Taxation"
                       >
                         Taxation
                       </a>

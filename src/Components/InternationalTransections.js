@@ -64,8 +64,7 @@ const InternationalTransections = () => {
               <li className="nav-item">
                 <a
                   class="nav-link "
-                  href="/"
-                  tag={NavLink}
+                  href="/jyacademy"
                   style={{ fontWeight: "" }}
                 >
                   Home
@@ -74,8 +73,7 @@ const InternationalTransections = () => {
               <li className="nav-item">
                 <a
                   class="nav-link "
-                  href="OncampusProgram"
-                  tag={NavLink}
+                  href="/OncampusProgram"
                   style={{ fontWeight: "" }}
                 >
                   About
@@ -93,11 +91,7 @@ const InternationalTransections = () => {
                   </button>
                   <ul class="p-2 dropdown-menu">
                     <li className="m-0 p-0 w-100">
-                      <a
-                        class="m-0  dropdown-item"
-                        href="AuditAssurance"
-                        tag={NavLink}
-                      >
+                      <a class="m-0  dropdown-item" href="/AuditAssurance">
                         Audit & Assurance
                       </a>
                     </li>
@@ -105,7 +99,7 @@ const InternationalTransections = () => {
                       <a
                         class="m-0 dropdown-item"
                         type="button"
-                        href="Taxation"
+                        href="/Taxation"
                       >
                         Taxation
                       </a>
@@ -114,7 +108,7 @@ const InternationalTransections = () => {
                       <a
                         class="m-0 dropdown-item"
                         type="button"
-                        href="BusinessSupport"
+                        href="/BusinessSupport"
                       >
                         Business Support
                       </a>
@@ -122,8 +116,7 @@ const InternationalTransections = () => {
                     <li className="m-0 p-0 w-100">
                       <a
                         class="m-0 dropdown-item"
-                        href="ManagementConsultancy"
-                        tag={NavLink}
+                        href="/ManagementConsultancy"
                       >
                         Management Consultancy
                       </a>
@@ -132,7 +125,7 @@ const InternationalTransections = () => {
                       <a
                         class="m-0 dropdown-item"
                         type="button"
-                        href="InternationalTransections"
+                        href="/InternationalTransections"
                       >
                         International Transections
                       </a>
@@ -141,7 +134,7 @@ const InternationalTransections = () => {
                       <a
                         class="m-0 dropdown-item"
                         type="button"
-                        href="NewBusinessSupport"
+                        href="/NewBusinessSupport"
                       >
                         New Business Support
                       </a>
@@ -152,20 +145,14 @@ const InternationalTransections = () => {
               <li className="nav-item">
                 <a
                   class="nav-link "
-                  href="CrashCourse"
-                  tag={NavLink}
+                  href="/CrashCourse"
                   style={{ fontWeight: "" }}
                 >
                   Careers
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  class="nav-link "
-                  href="Contact"
-                  tag={NavLink}
-                  style={{ fontWeight: "" }}
-                >
+                <a class="nav-link " href="/Contact" style={{ fontWeight: "" }}>
                   Contact
                 </a>
               </li>

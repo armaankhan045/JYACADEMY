@@ -70,8 +70,7 @@ const AuditAssurance = () => {
               <li className="nav-item">
                 <a
                   class="nav-link "
-                  href="/"
-                 
+                  href="/jyacademy"
                   style={{ fontWeight: "" }}
                 >
                   Home
@@ -98,10 +97,7 @@ const AuditAssurance = () => {
                   </button>
                   <ul class="p-2 dropdown-menu">
                     <li className="m-0 p-0 w-100">
-                      <a
-                        class="m-0  dropdown-item"
-                        href="/AuditAssurance"
-                      >
+                      <a class="m-0  dropdown-item" href="/AuditAssurance">
                         Audit & Assurance
                       </a>
                     </li>
@@ -162,11 +158,7 @@ const AuditAssurance = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  class="nav-link "
-                  href="/Contact"
-                  style={{ fontWeight: "" }}
-                >
+                <a class="nav-link " href="/Contact" style={{ fontWeight: "" }}>
                   Contact
                 </a>
               </li>

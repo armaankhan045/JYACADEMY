@@ -81,7 +81,7 @@ const BusinessSupport = () => {
               <li className="nav-item">
                 <a
                   class="nav-link "
-                  href="/"
+                  href="/jyacademy"
                   style={{ fontWeight: "" }}
                 >
                   Home
@@ -111,7 +111,6 @@ const BusinessSupport = () => {
                       <a
                         class="m-0  dropdown-item"
                         href="/AuditAssurance"
-
                       >
                         Audit & Assurance
                       </a>

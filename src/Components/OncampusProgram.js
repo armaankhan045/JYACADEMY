@@ -65,7 +65,7 @@ const OncampusProgram = () => {
               <li className="nav-item">
                 <a
                   class="nav-link "
-                  href="/"
+                  href="/jyacademy"
                   style={{ fontWeight: "" }}
                 >
                   Home
