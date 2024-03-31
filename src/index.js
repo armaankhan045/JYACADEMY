@@ -31,13 +31,7 @@ const root = createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
-    <Auth0Provider
-      domain="dev-7jtazo8w2b7mspe4.us.auth0.com"
-      clientId="wpHr3Ol9F0fWnARGkcrhc8XJqiCn4uZs"
-      authorizationParams={{
-        redirect_uri: window.location.origin,
-      }}
-    >
+   
       <Routes>
         <Route path="/" element={<NavBar />} />
         <Route path="/OncampusProgram" element={<OncampusProgram />} />
@@ -62,6 +56,5 @@ root.render(
         <Route path="/WhoWeServe" element={<WhoWeServe />} />
         <Route path="/WhoWeAre" element={<WhoWeAre />} />
       </Routes>
-    </Auth0Provider>
   </BrowserRouter>
 );

@@ -5,7 +5,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Components/customcss.css";
 import { createRoot } from "react-dom/client";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -29,38 +29,30 @@ import WhatWeDo from "./Components/WhatWeDo";
 const root = createRoot(document.getElementById("root"));
 
 root.render(
-  <HashRouter>
-    <Auth0Provider
-      domain="dev-7jtazo8w2b7mspe4.us.auth0.com"
-      clientId="wpHr3Ol9F0fWnARGkcrhc8XJqiCn4uZs"
-      authorizationParams={{
-        redirect_uri: window.location.origin,
-      }}
-    >
-      <Routes>
-        <Route path="/" element={<NavBar />} />
-        <Route path="/OncampusProgram" element={<Oncampusprogram />} />
-        <Route path="/CrashCourse" element={<CrashCourse />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/AuditAssurance" element={<AuditAssurance />} />
-        <Route path="/Taxation" element={<Taxation />} />
-        <Route path="/BusinessSupport" element={<BusinessSupport />} />
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<NavBar />} />
+      <Route path="/OncampusProgram" element={<OncampusProgram />} />
+      <Route path="/CrashCourse" element={<CrashCourse />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/AuditAssurance" element={<AuditAssurance />} />
+      <Route path="/Taxation" element={<Taxation />} />
+      <Route path="/BusinessSupport" element={<BusinessSupport />} />
 
-        <Route
-          path="/ManagementConsultancy"
-          element={<ManagementConsultancy />}
-        />
+      <Route
+        path="/ManagementConsultancy"
+        element={<ManagementConsultancy />}
+      />
 
-        <Route
-          path="/InternationalTransections"
-          element={<InternationalTransections />}
-        />
+      <Route
+        path="/InternationalTransections"
+        element={<InternationalTransections />}
+      />
 
-        <Route path="/NewBusinessSupport" element={<NewBusinessSupport />} />
-        <Route path="/WhatWeDo" element={<WhatWeDo />} />
-        <Route path="/WhoWeServe" element={<WhoWeServe />} />
-        <Route path="/WhoWeAre" element={<WhoWeAre />} />
-      </Routes>
-    </Auth0Provider>
-  </HashRouter>
+      <Route path="/NewBusinessSupport" element={<NewBusinessSupport />} />
+      <Route path="/WhatWeDo" element={<WhatWeDo />} />
+      <Route path="/WhoWeServe" element={<WhoWeServe />} />
+      <Route path="/WhoWeAre" element={<WhoWeAre />} />
+    </Routes>
+  </BrowserRouter>
 );
